@@ -2,6 +2,12 @@ import React from "react";
 import "../styles/subscription.css";
 
 const SubscriptionSection = () => {
+  const subscriptionImages = [
+    "/images/1.jpg",
+    "/images/2.jpg",
+    "/images/3.jpg",
+  ];
+
   return (
     <div className="subscription-container">
       <div className="content-wrapper">
@@ -10,9 +16,14 @@ const SubscriptionSection = () => {
           <p className="subtitle">Delivered to Your Door</p>
         </div>
         <div className="image-slider-placeholder">
-          <div className="placeholder"></div>
-          <div className="placeholder"></div>
-          <div className="placeholder"></div>
+          {subscriptionImages.map((img, index) => (
+            <img
+              key={index}
+              src={img}
+              alt={`Subscription ${index + 1}`}
+              className="subscription-img"
+            />
+          ))}
         </div>
       </div>
       <button className="subscribe-button">Subscribe Now</button>

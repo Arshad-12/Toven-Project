@@ -10,11 +10,11 @@ const responsive = {
 };
 
 const items = [
-  <img src="/images/1.webp" alt="Slide 1" className="slider-image" />,
-  <img src="/images/2.webp" alt="Slide 2" className="slider-image" />,
-  <img src="/images/3.webp" alt="Slide 3" className="slider-image" />,
-  <img src="/images/1.webp" alt="Slide 4" className="slider-image" />,
-  <img src="/images/2.webp" alt="Slide 5" className="slider-image" />,
+  <img src="/images/1.jpg" alt="Slide 1" className="slider-image" />,
+  <img src="/images/2.jpg" alt="Slide 2" className="slider-image" />,
+  <img src="/images/3.jpg" alt="Slide 3" className="slider-image" />,
+  <img src="/images/4.jpg" alt="Slide 4" className="slider-image" />,
+  <img src="/images/5.jpg" alt="Slide 5" className="slider-image" />,
 ];
 
 const ImageSlider = () => (
