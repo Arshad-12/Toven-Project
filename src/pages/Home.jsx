@@ -1,10 +1,11 @@
-function Home(){
-    return(
-        <section>
-            <h2>Welcome to Toven</h2>
-            <p>Your Fresh , home cooked meals delivered to door</p>
-        </section>
-    );
-}
+import ImageSlider from "../components/ImageSlider";
+import SubscriptionSection from "../components/SubscriptionSection";
 
-export default Home;
+export default function Home() {
+  return (
+    <div className="p-4">
+      <ImageSlider />
+      <SubscriptionSection />
+    </div>
+  );
+}

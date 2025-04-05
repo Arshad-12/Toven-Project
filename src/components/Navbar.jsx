@@ -1,18 +1,19 @@
 import { Link } from "react-router-dom";
 import '../styles/navbar.css';
-
 function Navbar(){
     return(
-        <nav>
-            <h1>Toven</h1>
+        <>
+          <nav className="nav">
+            <h1 className="site-title">Toven</h1>
             <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/pricing">Pricing</Link></li>
-                <li><Link to="/about">About Us</Link></li>
-                <li><Link to="/contact">Contact Us</Link></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/pricing">Pricing</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contact">Contact Us</a></li>
             </ul>
         </nav>
+        <hr />
+        </>
     );
 }
-
 export default Navbar;
