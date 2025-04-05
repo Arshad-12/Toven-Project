@@ -11,6 +11,7 @@ export default function Home() {
       <SubscriptionSection />
       <HowItWorks />
       <SpecialSection />
+      <br />
       <Footer />
     </div> 
   );

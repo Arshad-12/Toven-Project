@@ -68,7 +68,6 @@
     border-radius: 10px;
   }
   .white-gap {
-    height: 60px; /* Adjust this height as needed */
-    background-color: white;
-  }
-  
+  height: 60px; /* Adjust this height as needed */
+  background-color: white;
+}
