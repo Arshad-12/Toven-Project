@@ -1,0 +1,39 @@
+.footer-bar {
+    background-color: #fff933; /* Yellow */
+    color: black;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .insta-icon {
+    font-size: 22px;
+  }
+  
+  .footer-right {
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  
+  .footer-right a {
+    text-decoration: none;
+    color: black;
+    transition: opacity 0.3s;
+  }
+  
+  .footer-right a:hover {
+    opacity: 0.7;
+  }
+  
