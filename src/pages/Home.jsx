@@ -1,10 +1,18 @@
-function Home(){
-    return(
-        <section>
-            <h2>Welcome to Toven</h2>
-            <p>Your Fresh , home cooked meals delivered to door</p>
-        </section>
-    );
-}
+import HowItWorks from "../components/HowItWorks";
+import ImageSlider from "../components/ImageSlider";
+import SpecialSection from "../components/SpecialSection";
+import SubscriptionSection from "../components/SubscriptionSection";
+import Footer from "../components/Footer";
 
-export default Home;
+export default function Home() {
+  return (
+    <div className="p-4">
+      <ImageSlider />
+      <SubscriptionSection />
+      <HowItWorks />
+      <SpecialSection />
+      <br />
+      <Footer />
+    </div> 
+  );
+}
