@@ -7,7 +7,10 @@ function Navbar(){
             <h1 className="site-title">Toven</h1>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/pricing">Pricing</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/pricing">Subscription</a></li>
+                <li><a href="/contact">Add Ons</a></li>
+                <li><a href="/contact">Party orders</a></li>
                 <li><a href="/about">About Us</a></li>
                 <li><a href="/contact">Contact Us</a></li>
             </ul>
